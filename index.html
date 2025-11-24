@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feed Baby - Nurture</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Quicksand for soft, premium baby app feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+      /* Custom scrollbar for clean mobile look */
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8;
+      }
+      
+      /* Safe area for iPhone X+ */
+      .pb-safe {
+        padding-bottom: env(safe-area-inset-bottom);
+      }
+
+      body {
+        font-family: 'Quicksand', sans-serif;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.4.1",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^11.0.8"
+  }
+}
+</script>
+</head>
+  <body class="bg-[#FDFBF7] text-slate-900 antialiased selection:bg-rose-100 selection:text-rose-700">
+    <div id="root"></div>
+  </body>
+</html>
